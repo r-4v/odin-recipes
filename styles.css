@@ -11,7 +11,7 @@ body {
 .recipe-tile {
   max-width: 400px;
   max-height: 500px;
-  box-shadow: 0 2px 4px 2px rgba(128, 218, 224, 0.2);
+  box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   margin-top:50px;
 }
@@ -31,6 +31,7 @@ ul a p {
   text-align: center;
   color: black;
   font-weight: 600;
+  margin-bottom:20px;
 }
 #list-wrapper {
   display: flex;
