@@ -5,6 +5,57 @@ body {
   background: linear-gradient(#7cff8299 5%, #c4e0e5);
 }
 
-#odin-head{
-    text-align:center;
+#odin-head {
+  text-align: center;
+}
+.recipe-tile {
+  max-width: 400px;
+  max-height: 500px;
+  box-shadow: 0 2px 4px 2px rgba(128, 218, 224, 0.2);
+  border-radius: 10px;
+  margin-top:50px;
+}
+.recipe-tile img {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+}
+ul {
+  list-style-type: none;
+}
+ul a {
+  text-decoration: none;
+}
+ul a p {
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
+#list-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.recipe-page-img{
+    border-radius: 30px;
+    
+}
+.recipe-page-wrapper{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.steps-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20%;
+    margin-left:20%;
+}
+.steps-wrapper h3{
+text-align:center;
 }
