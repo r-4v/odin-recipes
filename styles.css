@@ -1,0 +1,10 @@
+html {
+  min-height: 100%;
+}
+body {
+  background: linear-gradient(#7cff8299 5%, #c4e0e5);
+}
+
+#odin-head{
+    text-align:center;
+}
